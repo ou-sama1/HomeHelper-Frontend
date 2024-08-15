@@ -7,10 +7,10 @@ export default {
     },
     extend: {
       colors: {
-        primary: "FD8200", // For interactive UI (buttons, arrows etc...)
-        secondary: "042134", // Mainly for Backgrounds
-        tertiary: "AA370E", // For some components, depends on consistency
-        quaternary: "808080", // For some of the texts that have a white background
+        primary: "#FD8200", // For interactive UI (buttons, arrows etc...)
+        secondary: "#042134", // Mainly for Backgrounds
+        tertiary: "#AA370E", // For some components, depends on consistency
+        quaternary: "#808080", // For some of the texts that have a white background
       },
       width: {
         104: "26rem",
