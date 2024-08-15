@@ -1,11 +1,8 @@
-import "./index.css";
+import { RouterProvider } from 'react-router-dom';
+import router from './router';
 
 function App() {
-  return (
-    <>
-      <h1>HomeHelper</h1>
-    </>
-  );
+  return <RouterProvider router={router} />;
 }
 
 export default App;
