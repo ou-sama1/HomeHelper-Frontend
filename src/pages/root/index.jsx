@@ -1,10 +1,11 @@
 import { Outlet } from "react-router-dom";
 import "../../index.css";
+import { Navbar } from "./components";
 
 const RootLayout = () => {
   return (
     <main className="w-full">
-        {/* Header component goes here */}
+        <Navbar />
         <Outlet />
         {/* Footer component goes here */}
     </main>
