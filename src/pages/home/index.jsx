@@ -1,12 +1,12 @@
-import "../../index.css";
-  
+import { Header } from "./components";
+
 const HomePage = () => {
-    return (
-        <>
-            <h1>Home page</h1>
-            {/* Sections components go here */}
-        </>
-    );
+  return (
+    <>
+      <Header />
+      {/* Homepage sections components go here */}
+    </>
+  );
 };
 
 export default HomePage;

@@ -1,7 +1,6 @@
 import { useState } from "react";
 
 import HomeHelperLogo from "../../../../assets/logo-3.png";
-import "../../../../index.css";
 import NavList from "./NavList";
 import { Hamburger } from "../../../../components/icons";
 
