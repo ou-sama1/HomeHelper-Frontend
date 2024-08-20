@@ -1,9 +1,10 @@
-import { Header } from "./components";
+import { Explore, Header } from "./components";
 
 const HomePage = () => {
   return (
     <>
       <Header />
+      <Explore />
       {/* Homepage sections components go here */}
     </>
   );
