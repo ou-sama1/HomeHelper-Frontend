@@ -1,10 +1,11 @@
-import { Explore, Header } from "./components";
+import { Explore, Header, ForProviders } from "./components";
 
 const HomePage = () => {
   return (
     <>
       <Header />
       <Explore />
+      <ForProviders />
       {/* Homepage sections components go here */}
     </>
   );
