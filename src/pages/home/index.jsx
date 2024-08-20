@@ -1,10 +1,14 @@
-import { Header } from "./components";
+import { Header, TestimonialsSection } from "./components";
 
 const HomePage = () => {
   return (
     <>
       <Header />
-      {/* Homepage sections components go here */}
+      {/* ExploreSection */}
+      {/* WhyusSection */}
+      <TestimonialsSection />
+      {/* ForClientsSection */}
+      {/* ForProvidersSection */}
     </>
   );
 };

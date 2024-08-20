@@ -2,7 +2,7 @@ import { useState } from "react";
 
 import HomeHelperLogo from "../../../../assets/logo-3.png";
 import NavList from "./NavList";
-import { Hamburger } from "../../../../components/icons";
+import { HamburgerIcon } from "../../../../components/icons";
 
 const Navbar = () => {
   const [expand, setExpand] = useState(false);
@@ -23,7 +23,7 @@ const Navbar = () => {
             onClick={toggle}
             className="inline-flex h-10 w-10 items-center justify-center rounded-lg p-2 text-sm focus:outline-none focus:ring-2 focus:ring-gray-200 xl:hidden"
           >
-            <Hamburger />
+            <HamburgerIcon />
           </button>
 
           <div
