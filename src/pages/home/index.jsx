@@ -13,6 +13,7 @@ const HomePage = () => {
       {/* WhyusSection */}
       <TestimonialsSection />
       <ForClientsSection />
+      {/* Homepage sections components go here */}
     </>
   );
 };
