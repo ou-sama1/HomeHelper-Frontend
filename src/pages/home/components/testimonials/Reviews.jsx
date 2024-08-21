@@ -33,10 +33,10 @@ const Reviews = ({ data }) => {
       <Review isCenter={true} direction={direction} swipeReviewsHandler={swipeReviewsHandler} reviewData={data[currentIndex]} />
       <Review isCenter={false} direction={direction} reviewData={data[(currentIndex + 1) % data.length]} />
       <button disabled={deactivateButtons} onClick={()=>swipeReviewsHandler("l")} className={`absolute left-[20%] top-1/2 flex h-14 w-14 -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-lg bg-primary ${deactivateButtons ? "opacity-50" : ""}`}>
-        <ArrowIcon color={"#FFF"} dimensions={"50px"} />
+        <ArrowIcon color={"#FFF"} dimensions={"50px"} direction={"left"} />
       </button>
-      <button disabled={deactivateButtons} onClick={()=>swipeReviewsHandler("r")} className={`absolute right-[20%] top-1/2 flex h-14 w-14 -translate-y-1/2 translate-x-1/2 scale-x-[-1] items-center justify-center rounded-lg bg-primary ${deactivateButtons ? "opacity-50" : ""}`}>
-        <ArrowIcon color={"#FFF"} dimensions={"50px"} />
+      <button disabled={deactivateButtons} onClick={()=>swipeReviewsHandler("r")} className={`absolute right-[20%] top-1/2 flex h-14 w-14 -translate-y-1/2 translate-x-1/2 items-center justify-center rounded-lg bg-primary ${deactivateButtons ? "opacity-50" : ""}`}>
+        <ArrowIcon color={"#FFF"} dimensions={"50px"} direction={"right"} />
       </button>
     </div>
   );

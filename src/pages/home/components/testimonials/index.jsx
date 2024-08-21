@@ -29,8 +29,8 @@ const data = [
 
 const TestimonialsSection = () => {
     return(
-        <section className="flex w-full flex-col px-10 py-16 items-center">
-            <h1 className="font-bold text-6xl my-14">Découvrez ce que nos clients disent sur nous</h1>
+        <section className="flex w-full flex-col px-10 py-16 gap-24 h-screen justify-center items-center">
+            <h1 className="font-bold text-6xl text-center">Découvrez ce que nos clients disent sur nous</h1>
             <Reviews data={data} />
         </section>
     )
