@@ -1,4 +1,3 @@
-import React from "react";
 import GroupOfWorkers from "../../../../assets/group-of-workers.png";
 import { Link } from "react-router-dom";
 const ForProvidersSection = () => {
