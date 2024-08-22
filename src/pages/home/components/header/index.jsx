@@ -1,37 +1,38 @@
+import { Link } from "react-router-dom";
 import WorkerGuyImage from "../../../../assets/worker-guy.png";
 
 const Header = () => {
   return (
     <section
       id="header-section"
-      className="flex w-full flex-row justify-between px-10"
+      className="flex h-auto w-full flex-col items-center justify-between gap-10 px-5 pt-10 sm:px-10 lg:h-[calc(100vh-50px)] lg:flex-row lg:gap-0 lg:pt-0"
     >
-      <div className="z-10 flex w-3/4 flex-col justify-evenly">
-        <span className="flex flex-col gap-10">
-          <h1 className="text-8xl font-bold leading-28">
+      <div className="z-10 flex w-full flex-col items-center justify-center gap-10 text-center lg:w-3/4 lg:items-start lg:text-left">
+        <span className="flex flex-col gap-2 xl:gap-10">
+          <h1 className="text-6xl font-bold sm:text-7xl xl:text-8xl xl:leading-28">
             La meilleure solution pour chaque problème de maison.
           </h1>
-          <p className="w-4/5 text-2xl leading-10 text-quaternary">
+          <p className="text-xl leading-10 text-quaternary sm:text-2xl lg:w-4/5">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit
             tincidunt vivamus felis elementum eget enim elementum nisl.
           </p>
         </span>
-        <span className="flex gap-5 text-2xl font-bold">
-          <a
-            href="/services"
-            className="rounded-lg border bg-primary px-12 py-7 text-white transition hover:border-primary hover:bg-transparent hover:text-primary"
+        <span className="flex w-full flex-col gap-5 text-2xl font-bold sm:w-3/5 lg:w-auto lg:flex-row">
+          <Link
+            to="/services"
+            className="rounded-lg border bg-primary px-5 py-7 text-center text-white transition hover:border-primary hover:bg-transparent hover:text-primary xl:px-12"
           >
             Reserve maintenant
-          </a>
+          </Link>
           <a
-            href="#"
-            className="rounded-lg border bg-white px-12 py-7 hover:underline"
+            href="#explore-section"
+            className="rounded-lg border bg-white px-5 py-7 text-center hover:underline xl:px-12"
           >
             Voir plus
           </a>
         </span>
       </div>
-      <img src={WorkerGuyImage} alt="worker image" className="w-120" />
+      <img src={WorkerGuyImage} alt="worker image" className="w-80 lg:w-120" />
     </section>
   );
 };
