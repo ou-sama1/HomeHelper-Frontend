@@ -1,4 +1,9 @@
-import { ForClientsSection, Header, TestimonialsSection } from "./components";
+import {
+  ForClientsSection,
+  Header,
+  TestimonialsSection,
+  ForProvidersSection,
+} from "./components";
 
 const HomePage = () => {
   return (
@@ -8,7 +13,7 @@ const HomePage = () => {
       {/* WhyusSection */}
       <TestimonialsSection />
       <ForClientsSection />
-      {/* ForProvidersSection */}
+      <ForProvidersSection />
     </>
   );
 };
