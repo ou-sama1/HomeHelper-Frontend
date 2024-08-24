@@ -8,6 +8,7 @@ import {
   TwitterIcon,
   InstagramIcon,
 } from "../../../../components/icons";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -76,27 +77,31 @@ const Footer = () => {
         <div>
           <h5 className="pb-3 font-bold text-gray-500">Download Our App</h5>
           <div className="flex flex-col">
-            <AppStoreIcon />
-            <GooglePlayIcon />
+            <Link to="/">
+              <AppStoreIcon />
+            </Link>
+            <Link to="/">
+              <GooglePlayIcon />
+            </Link>
           </div>
         </div>
       </div>
       <div className="py-7">
         <h5 className="px-7 pb-5 font-bold text-gray-500">Follow us :</h5>
         <div className="flex flex-row items-center gap-2">
-          <div>
+          <Link to="/">
             <LinkedinIcon dimensions={"37px"} />
-          </div>
+          </Link>
 
-          <div>
+          <Link to="/">
             <FacebookIcon dimensions={"40px"} />
-          </div>
-          <div>
+          </Link>
+          <Link to="/">
             <TwitterIcon dimensions={"40px"} />
-          </div>
-          <div>
+          </Link>
+          <Link to="/">
             <InstagramIcon dimensions={"40px"} />
-          </div>
+          </Link>
         </div>
       </div>
       <div className="border-t py-4">
