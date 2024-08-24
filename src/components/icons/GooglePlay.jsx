@@ -1,6 +1,4 @@
-import React from "react";
-
-const GooglePlay = () => {
+const GooglePlayIcon = () => {
   return (
     <svg
       width="100"
@@ -145,4 +143,4 @@ const GooglePlay = () => {
   );
 };
 
-export default GooglePlay;
+export default GooglePlayIcon;

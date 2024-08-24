@@ -1,4 +1,4 @@
-const Linkedin = ({ dimensions }) => {
+const LinkedinIcon = ({ dimensions }) => {
   return (
     <svg
       width={dimensions}
@@ -15,4 +15,4 @@ const Linkedin = ({ dimensions }) => {
   );
 };
 
-export default Linkedin;
+export default LinkedinIcon;

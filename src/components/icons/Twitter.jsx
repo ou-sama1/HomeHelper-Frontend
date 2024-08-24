@@ -1,6 +1,4 @@
-import React from "react";
-
-const Twitter = ({ dimensions }) => {
+const TwitterIcon = ({ dimensions }) => {
   return (
     <svg
       width={dimensions}
@@ -17,4 +15,4 @@ const Twitter = ({ dimensions }) => {
   );
 };
 
-export default Twitter;
+export default TwitterIcon;

@@ -1,6 +1,4 @@
-import React from "react";
-
-const AppStore = () => {
+const AppStoreIcon = () => {
   return (
     <svg
       width="100"
@@ -110,4 +108,4 @@ const AppStore = () => {
   );
 };
 
-export default AppStore;
+export default AppStoreIcon;

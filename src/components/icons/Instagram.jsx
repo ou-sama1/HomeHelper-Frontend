@@ -1,6 +1,4 @@
-import React from "react";
-
-const Instagram = ({ dimensions }) => {
+const InstagramIcon = ({ dimensions }) => {
   return (
     <svg
       viewBox="0 0 24 24"
@@ -27,4 +25,4 @@ const Instagram = ({ dimensions }) => {
   );
 };
 
-export default Instagram;
+export default InstagramIcon;
