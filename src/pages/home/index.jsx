@@ -2,14 +2,14 @@ import {
   ForClientsSection,
   Header,
   TestimonialsSection,
-  ForProvidersSection,
+  ExploreSection,
 } from "./components";
 
 const HomePage = () => {
   return (
     <>
       <Header />
-      {/* ExploreSection */}
+      <ExploreSection />
       {/* WhyusSection */}
       <TestimonialsSection />
       <ForClientsSection />
