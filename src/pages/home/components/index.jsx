@@ -3,3 +3,4 @@ export { default as TestimonialsSection } from './testimonials';
 export { default as ForClientsSection } from './forClients';
 export { default as ForProvidersSection } from "./forProviders";
 export { default as ExploreSection } from "./explore";
+export { default as WhyusSection } from "./whyus";

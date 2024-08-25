@@ -4,6 +4,7 @@ import {
   Header,
   TestimonialsSection,
   ExploreSection,
+  WhyusSection,
 } from "./components";
 
 const HomePage = () => {
@@ -11,7 +12,7 @@ const HomePage = () => {
     <>
       <Header />
       <ExploreSection />
-      {/* WhyusSection */}
+      <WhyusSection />
       <TestimonialsSection />
       <ForClientsSection />
       <ForProvidersSection />
