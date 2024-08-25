@@ -16,3 +16,6 @@ export { default as ThunderIcon } from "./Thunder";
 export { default as ToolsIcon } from "./Tools";
 export { default as VacuumIcon } from "./Vacuum";
 export { default as StarsIcon } from "./Stars";
+export { default as BroomIcon } from "./Broom";
+export { default as GroupIcon } from "./Group";
+export { default as SmileIcon } from "./Smile";
