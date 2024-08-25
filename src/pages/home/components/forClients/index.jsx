@@ -4,9 +4,9 @@ import { ArrowIcon } from "../../../../components/icons";
 const ForClientsSection = () => {
   return (
     <section className="flex w-full flex-col items-center justify-center gap-5 bg-secondary px-2 py-24 text-center text-white md:px-10 lg:h-144">
-      <h1 className="text-5xl font-bold lg:text-6xl">
+      <h2 className="text-5xl font-bold lg:text-6xl">
         Prêt à mettre votre maison en parfait état ?
-      </h1>
+      </h2>
       <p className="text-2xl font-medium lg:text-3xl">
         Découvrez nos différents services et réservez dès maintenant
       </p>
