@@ -1,5 +1,6 @@
 import {
   ForClientsSection,
+  ForProvidersSection,
   Header,
   TestimonialsSection,
   ExploreSection,
