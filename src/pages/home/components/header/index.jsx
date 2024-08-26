@@ -9,15 +9,15 @@ const Header = () => {
     >
       <div className="z-10 flex w-full flex-col items-center justify-center gap-10 text-center lg:w-3/4 lg:items-start lg:text-left">
         <span className="flex flex-col gap-2 xl:gap-10">
-          <h1 className="text-6xl font-bold sm:text-7xl xl:text-8xl xl:leading-28">
+          <h1 className="text-5xl font-bold md:text-6xl lg:text-7xl xl:text-8xl xl:leading-28">
             La meilleure solution pour chaque problème de maison.
           </h1>
-          <p className="text-xl leading-10 text-quaternary sm:text-2xl lg:w-4/5">
+          <p className="text-lg leading-10 text-quaternary md:text-2xl lg:w-4/5 xl:text-3xl">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit
             tincidunt vivamus felis elementum eget enim elementum nisl.
           </p>
         </span>
-        <span className="flex w-full flex-col gap-5 text-2xl font-bold sm:w-3/5 lg:w-auto lg:flex-row">
+        <span className="flex w-full flex-col gap-5 text-xl font-bold sm:w-3/5 md:text-2xl lg:w-auto lg:flex-row">
           <Link
             to="/services"
             className="rounded-lg border bg-primary px-5 py-7 text-center text-white transition hover:border-primary hover:bg-transparent hover:text-primary xl:px-12"
