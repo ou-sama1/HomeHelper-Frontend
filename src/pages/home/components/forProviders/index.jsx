@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const ForProvidersSection = () => {
   return (
     <section
-      id="for-providers-section"
+      id="forproviders-section"
       className="lg:h-150 flex w-full flex-col items-center justify-between gap-10 px-5 pt-24 sm:px-10 md:px-10 lg:flex-row lg:gap-0 lg:pt-0"
     >
       <div className="z-10 flex w-full flex-col items-center justify-center gap-10 text-center lg:w-3/4 lg:items-start lg:text-left">

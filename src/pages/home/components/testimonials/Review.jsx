@@ -26,7 +26,7 @@ const Review = ({
 
   return (
     <div
-      className={`relative flex h-96 w-full shrink-0 flex-col items-center justify-between rounded-lg border-2 p-6 lg:w-4/5 xl:h-104 xl:w-3/5 ${animation} ${!isCenter ? "blur-[2px]" : ""}`}
+      className={`relative flex h-96 w-full shrink-0 flex-col bg-white items-center justify-between rounded-lg border-2 p-6 lg:w-4/5 xl:h-104 xl:w-3/5 ${animation} ${!isCenter ? "blur-[2px]" : ""}`}
     >
       <QuotesIcon color={"#FD8200"} dimensions={"60px"} />
       <p className="line-clamp-5 text-center text-2xl lg:text-3xl italic font-light">

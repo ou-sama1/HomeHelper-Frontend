@@ -28,7 +28,7 @@ const WhyusSection = () => {
   return (
     <section
       id="whyus-section"
-      className="flex min-h-screen w-full flex-col items-center justify-center gap-28 bg-gray-100 px-1 py-24 text-center md:px-10"
+      className="flex min-h-screen w-full flex-col items-center justify-center gap-28 bg-gray-100 px-5 py-24 text-center md:px-10"
     >
       <div className="flex flex-col items-center gap-5">
         <h2 className="px-1 text-center text-4xl font-bold md:text-5xl lg:text-6xl">
@@ -46,7 +46,7 @@ const WhyusSection = () => {
             className="flex w-full flex-col items-center justify-center gap-5 rounded-lg bg-white px-10 py-5 sm:h-72 sm:w-4/5 lg:w-2/5 xl:w-120"
           >
             <span className="rounded-full bg-tertiary p-2">{icon}</span>
-            <span className="h-10 text-lg font-bold sm:text-xl md:text-2xl">
+            <span className="h-12 text-lg font-bold sm:text-xl md:text-2xl">
               {name}
             </span>
             <p className="text-sm text-gray-600 sm:text-lg md:text-xl">

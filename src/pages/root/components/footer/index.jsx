@@ -1,4 +1,3 @@
-import React from "react";
 import HomeHelperLogo from "../../../../assets/logo-1.png";
 import {
   AppStoreIcon,
@@ -10,86 +9,72 @@ import {
 } from "../../../../components/icons";
 import { Link } from "react-router-dom";
 
+const links = [
+  {
+    id: 0,
+    title: "Company",
+    links: ["About Us", "All Services", "How It Works", "Career"],
+  },
+  {
+    id: 1,
+    title: "Community",
+    links: ["Blog", "Affiliate Program", "Testimonials"],
+  },
+  {
+    id: 2,
+    title: "Support",
+    links: ["Help Center", "Privacy Policy", "Terms of Service", "Legals"],
+  },
+];
+
 const Footer = () => {
   return (
-    <footer className="bg-gray-100 px-8 text-gray-400">
-      <div className="flex flex-col pt-8 text-center lg:flex-row lg:justify-between">
-        <div>
+    <footer className="bg-gray-100 px-8 pt-10 text-gray-400">
+      <div className="flex flex-col items-center pt-8 text-center xl:flex-row xl:items-start xl:justify-between">
+        <div className="flex w-60 flex-col items-center gap-7 pb-10 text-xl">
           <img
-            className="mx-auto h-16 grayscale filter"
+            className="mx-auto w-36 grayscale filter"
             src={HomeHelperLogo}
             alt="homeHelper logo"
           />
-          <p className="pt-7">
+          <p>
             1234 Rue Imaginaire
             <br /> 75001 Paris, France
           </p>
-          <p className="pt-7">+33 1 23 45 67 89</p>
+          <p>+33 1 23 45 67 89</p>
         </div>
-        <div>
-          <h5 className="pb-3 font-bold text-gray-500">Company</h5>
-          <ul>
-            <li>
-              <a href="#">About Us</a>
+
+        <ul className="flex w-full flex-col justify-evenly gap-10 py-10 sm:flex-row sm:gap-5 md:py-0">
+          {links.map(({ id, title, links }) => (
+            <li key={id} className="flex flex-col gap-2">
+              <span className="pb-3 text-xl font-bold text-gray-500">
+                {title}
+              </span>
+              <ul className="flex flex-col gap-5 text-lg">
+                {links.map((link, i) => (
+                  <li key={i}>
+                    <a href="#">{link}</a>
+                  </li>
+                ))}
+              </ul>
             </li>
-            <li>
-              <a href="#">All Services</a>
-            </li>
-            <li>
-              <a href="#">How It Works</a>
-            </li>
-            <li>
-              <a href="#">Career</a>
-            </li>
-          </ul>
-        </div>
-        <div>
-          <h5 className="pb-3 font-bold text-gray-500">Community</h5>
-          <ul>
-            <li>
-              <a href="#">Blog</a>
-            </li>
-            <li>
-              <a href="#">Affiliate Program</a>
-            </li>
-            <li>
-              <a href="#">Testimonials</a>
-            </li>
-          </ul>
-        </div>
-        <div>
-          <h5 className="pb-3 font-bold text-gray-500">Support</h5>
-          <ul>
-            <li>
-              <a href="#">Help Center</a>
-            </li>
-            <li>
-              <a href="#">Privacy Policy</a>
-            </li>
-            <li>
-              <a href="#">Terms of Service</a>
-            </li>
-            <li>
-              <a href="#">Legals</a>
-            </li>
-          </ul>
-        </div>
-        <div>
-          <h5 className="pb-3 font-bold text-gray-500">Download Our App</h5>
-          <div className="flex flex-col">
-            <span className="mx-auto">
-              <Link to="/">
-                <AppStoreIcon />
-              </Link>
-              <Link to="/">
-                <GooglePlayIcon />
-              </Link>
-            </span>
-          </div>
+          ))}
+        </ul>
+
+        <div className="flex flex-col items-center gap-4">
+          <h5 className="pb-3 text-xl font-bold text-gray-500">
+            Download Our App
+          </h5>
+          <a href="/">
+            <AppStoreIcon />
+          </a>
+          <a href="/">
+            <GooglePlayIcon />
+          </a>
         </div>
       </div>
       <div className="py-7">
-        <h5 className="px-7 pb-5 text-center font-bold text-gray-500">
+        <h5 className="px-7 pb-5 text-center text-xl font-bold text-gray-500">
           Follow us :
         </h5>
         <div className="flex flex-row items-center justify-center gap-2">
