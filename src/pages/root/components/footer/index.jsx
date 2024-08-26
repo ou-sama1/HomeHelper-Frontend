@@ -13,10 +13,10 @@ import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <footer className="bg-gray-100 px-8 text-gray-400">
-      <div className="flex flex-row justify-between gap-3 pt-8">
+      <div className="flex flex-col pt-8 text-center lg:flex-row lg:justify-between">
         <div>
           <img
-            className="h-16 grayscale filter"
+            className="mx-auto h-16 grayscale filter"
             src={HomeHelperLogo}
             alt="homeHelper logo"
           />
@@ -77,18 +77,22 @@ const Footer = () => {
         <div>
           <h5 className="pb-3 font-bold text-gray-500">Download Our App</h5>
           <div className="flex flex-col">
-            <Link to="/">
-              <AppStoreIcon />
-            </Link>
-            <Link to="/">
-              <GooglePlayIcon />
-            </Link>
+            <span className="mx-auto">
+              <Link to="/">
+                <AppStoreIcon />
+              </Link>
+              <Link to="/">
+                <GooglePlayIcon />
+              </Link>
+            </span>
           </div>
         </div>
       </div>
       <div className="py-7">
-        <h5 className="px-7 pb-5 font-bold text-gray-500">Follow us :</h5>
-        <div className="flex flex-row items-center gap-2">
+        <h5 className="px-7 pb-5 text-center font-bold text-gray-500">
+          Follow us :
+        </h5>
+        <div className="flex flex-row items-center justify-center gap-2">
           <Link to="/">
             <LinkedinIcon dimensions={"37px"} />
           </Link>

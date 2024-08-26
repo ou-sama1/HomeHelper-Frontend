@@ -1,8 +1,8 @@
 const GooglePlayIcon = () => {
   return (
     <svg
-      width="100"
-      height="50"
+      width="210"
+      height="45"
       viewBox="0 0 50 16"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
