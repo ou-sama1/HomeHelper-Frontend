@@ -1,12 +1,23 @@
-import "../../index.css";
-  
+import {
+  ForClientsSection,
+  ForProvidersSection,
+  Header,
+  TestimonialsSection,
+  ExploreSection,
+  WhyusSection,
+} from "./components";
+
 const HomePage = () => {
-    return (
-        <>
-            <h1>Home page</h1>
-            {/* Sections components go here */}
-        </>
-    );
+  return (
+    <>
+      <Header />
+      <ExploreSection />
+      <WhyusSection />
+      <TestimonialsSection />
+      <ForClientsSection />
+      <ForProvidersSection />
+    </>
+  );
 };
 
 export default HomePage;

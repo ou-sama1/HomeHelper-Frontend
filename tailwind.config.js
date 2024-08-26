@@ -48,6 +48,34 @@ export default {
         24: "6rem",
         28: "7rem",
       },
+      animation: {
+        fadeLeft: "fadeLeft 0.5s linear",
+        fadeLeft2: "fadeLeft2 0.5s linear",
+        fadeRight: "fadeRight 0.5s linear",
+        fadeRight2: "fadeRight2 0.5s linear",
+      },
+      keyframes: {
+        fadeLeft: {
+          "0%": { transform: "translateX(110%)", opacity: 0.1 },
+          "50%": { transform: "translateX(50%)", opacity: 0.5 },
+          "100%": { transform: "translateX(0)", opacity: 1 },
+        },
+        fadeRight: {
+          "0%": { transform: "translateX(-110%)", opacity: 0.1 },
+          "50%": { transform: "translateX(-50%)", opacity: 0.5 },
+          "100%": { transform: "translateX(0)", opacity: 1 },
+        },
+        fadeLeft2: {
+          "0%": { transform: "translateX(110%)", opacity: 0.1 },
+          "50%": { transform: "translateX(50%)", opacity: 0.6 },
+          "100%": { transform: "translateX(0)", opacity: 1 },
+        },
+        fadeRight2: {
+          "0%": { transform: "translateX(-110%)", opacity: 0.1 },
+          "50%": { transform: "translateX(-50%)", opacity: 0.6 },
+          "100%": { transform: "translateX(0)", opacity: 1 },
+        },
+      },
     },
   },
   plugins: [],
