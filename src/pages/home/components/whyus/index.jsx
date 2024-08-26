@@ -6,21 +6,21 @@ const cards = [
     icon: <BroomIcon color={"white"} dimensions={"35px"} />,
     name: "+200 Services",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ultrices integer diam sed aliquet diam. ",
+      "Une large gamme de services pour répondre à tous vos besoins domestiques.",
   },
   {
     id: 1,
     icon: <GroupIcon color={"white"} dimensions={"35px"} />,
     name: "+1,500 Fournisseurs de services",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ultrices integer diam sed aliquet diam. ",
+      "Professionnels expérimentés et qualifiés, à votre disposition.",
   },
   {
     id: 2,
     icon: <SmileIcon color={"white"} dimensions={"35px"} />,
     name: "+10K Clients satisfaits",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ultrices integer diam sed aliquet diam. ",
+      "Des milliers de clients satisfaits qui nous font confiance.",
   },
 ];
 
@@ -34,7 +34,7 @@ const WhyusSection = () => {
         <h2 className="px-1 text-center text-4xl font-bold md:text-5xl lg:text-6xl">
           Pourquoi Nous ?
         </h2>
-        <p className="text-xl font-bold leading-10 md:text-2xl lg:w-4/5">
+        <p className="text-xl font-bold leading-normal md:text-2xl md:leading-10 lg:w-4/5">
           Notre plateforme vous connecte à des professionnels vérifiés pour une
           expérience simple et fiable, avec une garantie de satisfaction.
         </p>
