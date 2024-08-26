@@ -13,8 +13,8 @@ const Header = () => {
             La meilleure solution pour chaque problème de maison.
           </h1>
           <p className="text-lg leading-10 text-quaternary md:text-2xl lg:w-4/5 xl:text-3xl">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit
-            tincidunt vivamus felis elementum eget enim elementum nisl.
+            Nous vous connectons avec les meilleurs professionnels pour tous vos
+            besoins domestiques.
           </p>
         </span>
         <span className="flex w-full flex-col gap-5 text-xl font-bold sm:w-3/5 md:text-2xl lg:w-auto lg:flex-row">

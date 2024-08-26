@@ -15,42 +15,42 @@ const servicesShowcaseData = [
     id: 0,
     name: "Plomberie",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi saepe fuga debitis.",
+      "Installation, réparation, et entretien de vos systèmes de plomberie avec des artisans qualifiés.",
     icon: <PipesIcon color={"white"} dimensions={"70px"} />,
   },
   {
     id: 1,
     name: "Rénovation",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi saepe fuga debitis.",
+      "Transformez votre maison avec notre équipe de rénovation experte.",
     icon: <ToolsIcon color={"white"} dimensions={"70px"} />,
   },
   {
     id: 2,
     name: "Peinture",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi saepe fuga debitis.",
+      "Donnez un nouveau look à votre espace avec nos services de peinture professionnels.",
     icon: <PainterIcon color={"white"} dimensions={"70px"} />,
   },
   {
     id: 3,
     name: "Travaux électriques",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi saepe fuga debitis.",
+      "Services électriques sécurisés pour tous vos besoins, petits ou grands.",
     icon: <ThunderIcon color={"white"} dimensions={"70px"} />,
   },
   {
     id: 4,
     name: "Charpenterie",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi saepe fuga debitis.",
+      "Solutions de charpenterie sur mesure pour chaque projet.",
     icon: <SawIcon color={"white"} dimensions={"70px"} />,
   },
   {
     id: 5,
     name: "Ménage",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi saepe fuga debitis.",
+      "Nettoyage professionnel pour une maison impeccable, à tout moment.",
     icon: <VacuumIcon color={"white"} dimensions={"70px"} />,
   },
 ];
