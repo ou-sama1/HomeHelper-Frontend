@@ -8,7 +8,6 @@ import {
   EmailIcon,
   EyeIcon,
   GoogleIcon,
-  LinkedinIcon,
   LockIcon,
   SpinnerIcon,
 } from "../../components/icons";

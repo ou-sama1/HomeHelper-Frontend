@@ -151,7 +151,7 @@ const SignupForm = () => {
           <div className="items center flex gap-2">
             <input type="checkbox" {...register("terms")} className="w-5" />
             <label htmlFor="terms">
-              J'accept tous{" "}
+              J&apos;accept tous
               <span className="text-primary">
                 les conditions et termes de site
               </span>
